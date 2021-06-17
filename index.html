@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+ <!-- start Quiz button -->
+    <div class="basla_button"><button>Teste başla</button></div>
+ <!-- Kurallar -->
+    <div class="quiz">
+        <div class="quiz_baslik"><span> QUİZ KURALLARI:</span></div>
+        <div class="quiz_rule">
+            <div class="">1. Her soru için 10 saniyeniz vardır.</div>
+            <div class="">2. Süre bittikten sonra işaretleme yapamazsınız.</div>
+            <div class="">3. Doğru sayınız Quiz sonunda yazacaktır.</div>
+        </div>
+        <div class="second_start">
+            <button class="started">Başla</button>
+        </div>
+    </div>
+<!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Potterhead Quiz</div>
+            <div class="timer">
+                <div class="">Kalan süre: </div>
+                <div class="saniye">10</div>
+            </div>
+        </header>
+        <section>
+            <div class="soru_text"></div>
+            <div class="option_list"></div>
+        </section>
+<!-- footer -->
+        <footer>
+            <div class="toplam_soru"></div>
+            <button class="next_btn"></button>
+        </footer>
+    </div>
+<!-- Result Box -->
+    <div class="result_box">
+           <div class="complete_text">Quiz bitti!</div>
+        <div class="score_text">
+        </div>
+        <div class="second_start">
+            <button class="started">Tekrar</button></div>
+    </div>
+    <script src="js/soru.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
